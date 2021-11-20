@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 
 export default function Services() {
   const tfsData = [
@@ -41,6 +42,9 @@ export default function Services() {
     // onclick function to display modal when the veiw button is clicked
 
     <div className="bg-[#ccc] p-2">
+      <Head>
+        <title>InstaFollowPanel || Services</title>
+      </Head>
       <section className="overflow-scroll m-2">
         <h2 className="section-title mx-4">Today's Fastest Service</h2>
         <table className="table-auto w-[40rem] divide-y-2 divide-black sm:w-full">

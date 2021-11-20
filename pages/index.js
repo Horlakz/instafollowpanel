@@ -105,7 +105,6 @@ export default function Home({ children, isOpen, onChange }) {
 
   return (
     <div className="bg-[#ccc]">
-      <>
         <Head>
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -136,7 +135,7 @@ export default function Home({ children, isOpen, onChange }) {
 
           {/* Main Content  */}
           {/* Why choose us? */}
-          <section className="p-4 bg-gray-600 text-white sm:flex sm:justify-center">
+          <section className="p-4 bg-gray-600 text-white sm:flex sm:justify-centerexit">
             <div className="sm:pt-[17%] sm:mr-4">
               <h2 className="section-title">Why Choose Us?</h2>
               <p className="section-descr">
@@ -162,7 +161,7 @@ export default function Home({ children, isOpen, onChange }) {
           </section>
 
           {/* Where to begin? */}
-          <section className="p-4 sm:flex sm:flex-row-reverse sm:justify-center">
+          <section className="p-4 sm:flex sm:flex-row-reverse sm:justify-centerexit">
             <div className="sm:pt-[17%] sm:ml-4">
               <h2 className="section-title">Where to Begin</h2>
               <p className="section-descr">
@@ -188,7 +187,7 @@ export default function Home({ children, isOpen, onChange }) {
           </section>
 
           {/* Testimonies */}
-          <article className="bg-gray-600 p-4 sm:flex sm:justify-center">
+          <article className="bg-gray-600 p-4 sm:flex sm:justify-centerexit">
             <h2 className="section-title sm:pt-[10%]">Testimonies</h2>
             <div className="p-2 m-1 bg-gray-700 shadow-lg border border-white h-full w-full">
               <p>{testimoniesData.author}</p>
@@ -196,7 +195,7 @@ export default function Home({ children, isOpen, onChange }) {
           </article>
 
           {/* FAQ  */}
-          <section className="p-4 sm:flex sm:flex-row-reverse sm:justify-center">
+          <section className="p-4 sm:flex sm:flex-row-reverse sm:justify-centerexit">
             <div className="sm:pt-[17%] sm:ml-4">
               <h2 className="section-title">
                 FAQs (Frequenty Asked Questions)
@@ -218,7 +217,6 @@ export default function Home({ children, isOpen, onChange }) {
             </div>
           </section>
         </main>
-      </>
     </div>
   );
 }
